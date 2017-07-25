@@ -10,7 +10,7 @@ from DULparameters import *
 from dicom.dataset import Dataset
 import dsutils
 from struct import pack, unpack
-from dicom.UID import ImplicitVRLittleEndian
+from pydicom.uid import ImplicitVRLittleEndian
 #
 #  pydicom's dictionnary misses command tags. Add them.
 #
